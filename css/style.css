@@ -88,56 +88,95 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;
 }
 
-.titulo {
-  width: 100%;
-  height: 80px;
-  padding-top: 100px;
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trendy-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: fit-content;
+}
+
+.trendy-content h3 {
   font-size: 30px;
   font-weight: 800;
-  line-height: 45px;
-  letter-spacing: -0.011em;
-  text-align: left;
-  padding-left: 268px;
-
+  color: #1E1E1E;
+  margin-bottom: 8px;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    padding-top: 80px;
-    align-items: center;
-    height: 307px;
-    column-gap: 16px;
-    width: 100%;    
-    top: 2425px;
-    padding-left: 268px;
-  }
-  .card {
-    position: relative;
-    width: 260px;
-    height: 260px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .card_img {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1))
-  }
+.trendy-content > p {
+  margin-bottom: 32px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #646464;
+}
 
-  .card_h2 { 
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    font-size: 600;
-    color: white;
-    padding: 5px;
-  }
+.trendy-content div {
+  display: flex;
+  column-gap: 16px;
+}
+
+.description {
+  margin-top: 8px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.description h4 {
+  color: #1E1E1E;
+  font-size: 18px;
+}
+
+.next-you-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: fit-content;
+}
+
+.next-you-content h3 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #1E1E1E;
+  margin-bottom: 32px;
+}
+
+.next-you-content h4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+}
+
+.next-you-content div {
+  display: flex;
+  column-gap: 16px;
+}
+
+.card {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1))
+}
 
