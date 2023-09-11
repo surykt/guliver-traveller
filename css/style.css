@@ -297,3 +297,44 @@ a:hover {
   height: 250px;
   margin: 10px;
 }
+
+.footer-link-detach {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  line-height: 30px;
+  letter-spacing: -0.22px;
+  color: #696969;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  line-height: 30px;
+  letter-spacing: -0.22px;
+  color: #808080;
+}
+
+.footer-container-1 {
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.foot-container-2 {
+  padding-left: 20px;
+}
+
+.footer {
+	width: 100%;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+  margin-top: 100px;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	color: #fff;
+}
