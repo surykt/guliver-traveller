@@ -326,11 +326,19 @@ a:hover {
 
 .footer {
 	width: 100%;
+<<<<<<< HEAD
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+  margin-top: 100px;
+=======
 	height: 450px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
 
+>>>>>>> 02a08fa67e7f7f6d390c43f75b9495daa48e8282
 	align-items: center;
 	justify-content: center;
 	gap: 10px;
