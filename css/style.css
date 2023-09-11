@@ -48,7 +48,7 @@
   justify-content: center;
   width: 100%;
   height: 463px;
-  background-image: url(../Traveller/images/guliver-hero.png);
+  background-image: url(../assets/images/guliver-hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -88,7 +88,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .content {
@@ -107,7 +107,7 @@ body {
 .trendy-content h3 {
   font-size: 30px;
   font-weight: 800;
-  color: #1E1E1E;
+  color: #1e1e1e;
   margin-bottom: 8px;
 }
 
@@ -131,7 +131,7 @@ body {
 }
 
 .description h4 {
-  color: #1E1E1E;
+  color: #1e1e1e;
   font-size: 18px;
 }
 
@@ -145,7 +145,7 @@ body {
 .next-you-content h3 {
   font-size: 30px;
   font-weight: 800;
-  color: #1E1E1E;
+  color: #1e1e1e;
   margin-bottom: 32px;
 }
 
@@ -177,39 +177,38 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1))
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
 }
 
 a {
   text-decoration: none;
- 
 }
 
 .fa-arrow-left:hover,
 .fa-arrow-right:hover {
-  color: #FF9A43;
-  border-color: #FF9A43;
+  color: #ff9a43;
+  border-color: #ff9a43;
 }
 
 a:hover {
-  color:#FF9A43;
+  color: #ff9a43;
 }
 
 .box-categoria:hover {
-  color: #FF9A43;
-  border-color: #FF9A43;
+  color: #ff9a43;
+  border-color: #ff9a43;
 }
 
 .categoria-text {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   margin-top: 100px;
 }
 
 .categoria-text h3 {
   font-size: 30px;
   font-weight: 800;
-  color: #1E1E1E;
+  color: #1e1e1e;
   margin-bottom: 32px;
 }
 
@@ -219,7 +218,6 @@ a:hover {
   border-radius: 25px;
   padding: 5px;
   margin-left: 1070px;
-  
 }
 
 .fa-arrow-right {
@@ -256,18 +254,18 @@ a:hover {
 .fa-umbrella-beach,
 .fa-spa,
 .fa-book-open {
- padding-top: 20px;
- font-size: 37px;
+  padding-top: 20px;
+  font-size: 37px;
 }
 
 .titulo-categoria {
   font-size: 25px;
   color: black;
   padding-top: 10px;
-}   
+}
 
 .descubra-text {
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -277,7 +275,7 @@ a:hover {
 .descubra-lugares {
   width: 100%;
   height: 456px;
-  background-color: #FF9A43;
+  background-color: #ff9a43;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -328,11 +326,19 @@ a:hover {
 
 .footer {
 	width: 100%;
+<<<<<<< HEAD
 	height: 300px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
   margin-top: 100px;
+=======
+	height: 450px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+
+>>>>>>> 02a08fa67e7f7f6d390c43f75b9495daa48e8282
 	align-items: center;
 	justify-content: center;
 	gap: 10px;
