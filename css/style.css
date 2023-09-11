@@ -86,3 +86,58 @@
   top: 18px;
   left: 20px;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;;
+}
+
+.titulo {
+  width: 100%;
+  height: 80px;
+  padding-top: 100px;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 45px;
+  letter-spacing: -0.011em;
+  text-align: left;
+  padding-left: 268px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    align-items: center;
+    height: 307px;
+    column-gap: 16px;
+    width: 100%;    
+    top: 2425px;
+    padding-left: 268px;
+  }
+  .card {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .card_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1))
+  }
+
+  .card_h2 { 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 600;
+    color: white;
+    padding: 5px;
+  }
+
