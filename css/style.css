@@ -146,6 +146,13 @@
   left: 20px;
 }
 
+@media (max-width: 999px) {
+  .hero-input {
+    width: auto;
+    height: 70px;
+  }
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
