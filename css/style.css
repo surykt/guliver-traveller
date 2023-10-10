@@ -402,3 +402,47 @@ a:hover {
   gap: 10px;
   color: #fff;
 }
+
+@media (max-width: 999px) {
+  .footer-link-detach {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: -0.22px;
+    color: #696969;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: -0.22px;
+    color: #808080;
+    font-size: 14px;
+  }
+  
+  .footer-container-1 {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .foot-container-2 {
+    padding-left: 10px;
+  }
+  
+  .footer {
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+  }
+}
