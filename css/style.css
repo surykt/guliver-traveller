@@ -14,7 +14,7 @@
 
 .menu-items {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 169px;
   width: 100%;
@@ -40,6 +40,65 @@
 
 .menu-link:hover {
   color: #f57b23;
+}
+
+.menu-sandwich {
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 3rem;
+  height: 0.3rem;
+  background-color: #f57b23;
+  margin: 0.5rem auto;
+  border-radius: 7px;
+  transition: 0.5s;
+}
+
+@media (max-width: 999px) {
+  .menu-sandwich {
+    display: block;
+  }
+
+  .menu-links {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: -800px;
+    z-index: 1;
+    gap: 20;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 40vh;
+    transition: 0.5s;
+    font-weight: 500;
+    background-color: #e9822886;
+  }
+
+  .menu-link:hover {
+    color: #ffffffaa;
+  }
+
+  .active {
+    top: 0;
+  }
+
+  .menu-sandwich.active .bar:first-child {
+    transform: translateY(12px) rotate(360deg) rotate(45deg);
+  }
+
+  .menu-sandwich.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-sandwich.active .bar:last-child {
+    transform: translateY(-12px) rotate(-360deg) rotate(-45deg);
+  }
 }
 
 .hero-banner {
