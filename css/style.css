@@ -455,6 +455,17 @@ a:hover {
     margin-top: 10px;
   }
 
+  .trendy-content {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+   }
+
+   .trendy-content div {
+    flex-direction: column;
+    margin-top: 20px;
+   }
+
   @media (max-width: 999px) {
     .categorias {
        flex-direction: column;
@@ -475,15 +486,6 @@ a:hover {
       background-color: #ff9a43;
     }
         }
-
-     @media (max-width: 999px) {
-        .trendy-content {
-          flex-direction: column;
-          align-items: center;
-          margin-top: 10px;
-         }
-       
-      }
 }
 
 
