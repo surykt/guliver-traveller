@@ -445,7 +445,7 @@ a:hover {
     gap: 10px;
     color: #fff;
   }
-}}
+}
 
 @media(max-width: 999px) {
 
@@ -455,4 +455,13 @@ a:hover {
     margin-top: 10px;
   }
 
+  @media (max-width: 999px) {
+    .categorias {
+       flex-direction: column;
+             align-items: center;
+    }
+    .box-categoria {
+      margin-bottom: 20px;
+    }
+        }
 }
