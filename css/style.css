@@ -475,4 +475,15 @@ a:hover {
       background-color: #ff9a43;
     }
         }
+
+     @media (max-width: 999px) {
+        .trendy-content {
+          flex-direction: column;
+          align-items: center;
+          margin-top: 10px;
+         }
+       
+      }
 }
+
+
