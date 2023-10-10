@@ -463,5 +463,16 @@ a:hover {
     .box-categoria {
       margin-bottom: 20px;
     }
+    .categoria-text {
+      flex-direction: column;
+      align-items: center;
+    }
+    .descubra-lugares {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: 550px;
+      background-color: #ff9a43;
+    }
         }
 }
